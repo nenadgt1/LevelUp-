@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wordle</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="sidebar">
+
+<div class="logo">
+    <a href="../index.html">
+        <img id="logoimg" src="../media/logo.jpg" alt="ee jebiga">
+    </a>
+</div>
+<div class="gamestats">
+    <h2 id="instruction0">⬇️ instructions ⬇️</h2>
+    <h2 id="instruction1">🟨 The word contains this letter, but the position is wrong</h2>
+    <h2 id="instruction2">🟥 The word does not contain this letter</h2>
+    <h2 id="instruction3">🟩 The letter is at the correct position</h2>
+</div>
+
+</div>
+
+<div class="gamepage">
+
+    <div class="gametitle">
+
+        <div>
+
+            <h2 id="title">Wordle</h2>
+
+        </div>
+
+    </div>
+    
+    
+
+    <div class="gameview">
+
+            <h2 id="instructions">Try to guess the correct word ❗ in 5 tries ❗</h2>
+            <h3 id="wordLengthDisplay">The word has X letters.</h3>
+
+            <form id="wordleForm">
+                <input type="text" class="textinputfield" id="wordleEnter" placeholder="">
+                <button class="submitBtn" type="submit">Submit</button>
+            </form>
+
+            <div class="triesDiv">
+            <ul class="listofwords">
+                <li class="try1"></li>
+                <li class="try2"></li>
+                <li class="try3"></li>
+                <li class="try4"></li>
+                <li class="try5"></li>
+            </ul>
+        </div>
+
+            <div class="keyboard">
+                <div class="row">
+                    <div class="key" id="keyq">Q</div>
+                    <div class="key" id="keyw">W</div>
+                    <div class="key" id="keye">E</div>
+                    <div class="key" id="keyr">R</div>
+                    <div class="key" id="keyt">T</div>
+                    <div class="key" id="keyy">Y</div>
+                    <div class="key" id="keyu">U</div>
+                    <div class="key" id="keyi">I</div>
+                    <div class="key" id="keyo">O</div>
+                    <div class="key" id="keyp">P</div>
+                </div>
+                <div class="row">
+                    <div class="key" id="keya">A</div>
+                    <div class="key" id="keys">S</div>
+                    <div class="key" id="keyd">D</div>
+                    <div class="key" id="keyf">F</div>
+                    <div class="key" id="keyg">G</div>
+                    <div class="key" id="keyh">H</div>
+                    <div class="key" id="keyj">J</div>
+                    <div class="key" id="keyk">K</div>
+                    <div class="key" id="keyl">L</div>
+                </div>
+                <div class="row">
+                    <div class="key" id="keyz">Z</div>
+                    <div class="key" id="keyx">X</div>
+                    <div class="key" id="keyc">C</div>
+                    <div class="key" id="keyv">V</div>
+                    <div class="key" id="keyb">B</div>
+                    <div class="key" id="keyn">N</div>
+                    <div class="key" id="keym">M</div>
+                </div>
+                <div class="row">
+                </div>
+            </div>
+
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html> 

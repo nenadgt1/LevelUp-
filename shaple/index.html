@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <div class="logo">
+        <a href="../index.html">
+            <img id="logoimg" src="../media/logo.jpg" alt="ee jebiga">
+        </a>
+    </div>
+    <div class="gamestats">
+        <h2 id="instruction0">⬇️ Instructions ⬇️</h2>
+        <h2 id="instruction1">🔔 Red dot: Correct shape and position</h2>
+        <h2 id="instruction2">⚠️ Yellow dot: Correct shape, wrong position</h2>
+        <div id="dotsDisplay" class="dotsDisplay"></div>
+    </div>
+</div>
+
+<div class="gamepage">
+    <div class="gametitle">
+        <h2 id="title">Shaple</h2>
+    </div>
+
+    <div class="gameview">
+        <h2 id="instructions">Try to guess the correct shape combination ❗ You have 6 tries ❗</h2>
+        <h3 id="wordLengthDisplay">The code has X shapes.</h3>
+    
+        <div class="triesDiv">
+            <ul class="listofwords">
+                <li class="try1"></li>
+                <li class="try2"></li>
+                <li class="try3"></li>
+                <li class="try4"></li>
+                <li class="try5"></li>
+                <li class="try6"></li>
+            </ul>
+        </div>
+    
+        <form id="wordleForm">
+            <div id="userGuessDisplay" class="textinputfield"></div>
+            <button class="submitBtn" type="submit">Submit</button>
+        </form>
+    
+        <div class="keyboard">
+            <div class="row">
+                <div class="key shape-key" style="padding: 6px;">♣</div>
+                <div class="key shape-key" style="padding: 6px;">♦</div>
+                <div class="key shape-key" style="padding: 6px;">♥</div>
+            </div>
+            <div class="row">
+                <div class="key shape-key" style="padding: 6px;">♠</div>
+                <div class="key shape-key" style="padding: 6px;">★</div>
+                <div class="key shape-key" style="padding: 6px;">■</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
